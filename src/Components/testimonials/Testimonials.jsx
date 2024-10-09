@@ -20,7 +20,7 @@ slider.current.style.transform =`translateX(${tx}%)`;
 
 const slidbackword=()=>{
   if(tx <0){
-    tx =tx + 25
+    tx = tx + 25
     }
     slider.current.style.transform =`translateX(${tx}%)`;
 }
